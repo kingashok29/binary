@@ -1,6 +1,7 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Lato|Volkhov:700");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 // Variables
 @import "variables";
@@ -8,7 +9,12 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+.material-icons { vertical-align: middle; }
+
+h1, h2, h3 {
+  font-family: 'Volkhov', serif;
+}
+
+p {
+  font-size: 1.2em;
 }
